@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+#instagram{
+    display: inline;
+}
+#facebook{
+    display: inline;
+}
+
+#sns{
+    position: relative;
+    left: 64rem;
+    background-color: rgb(300,250,155);
+    font-family: 'Raleway', sans-serif;
+    width: 239px;
+}
+
+/*first*/
+#family, /* Offset linked sections to account for header. */
+#friends,
+#etc {
+  padding-top: 77px;
+  margin-top: -77px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.first a {
+  display: block;
+  color: #4A4A4A;
+  padding: 30px 20px;
+  background-color: beige;
+}
+
+
+.first li {
+  display: inline-block;
+}
+
+.first {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.header{
+    position: relative;
+}
+
+.header h1{
+    background-color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    margin: auto 0;
+    border-bottom: 50px solid antiquewhite;
+    border-top: 30px solid antiquewhite;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 70px;
+    letter-spacing: 7px;
+}
+
+.header p{
+    display: inline;
+}
+body{
+    margin: auto 0;
+}
+
+#dailyimg{
+    display: inline-flex;
+    margin: 26px;
+    border: 25px solid antiquewhite;
+}
+
+#dailyimg2{
+    display: inline-flex;
+    margin: 26px;
+    border: 25px solid beige;
+}
+
+#fig{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fam{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+#parents{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+#content{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 500px;
+    letter-spacing: 4px;
+    left: 300px;
+    top: 0px;
+    line-height: 50px;
+}
